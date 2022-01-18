@@ -95,7 +95,7 @@ const todoSlice = createSlice({
         }
     },
     extraReducers: {
-        // fulfilled: trạng thái đang xử lý
+        // pending: trạng thái đang xử lý
         [getTodosAsync.pending] : (state, action) => {
             console.log('Fetching Data.....');
         },
